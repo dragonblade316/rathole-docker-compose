@@ -13,6 +13,5 @@ keepalive_interval = 2 # Optional. Specify `tcp_keepalive_intvl` in `tcp(7)`, if
 
 [client.services.minecraft2]
 local_addr = "127.0.0.1:25566"
-type = "tcp"
 nodelay = true
 
