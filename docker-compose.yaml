@@ -1,7 +1,7 @@
 services:
   rathole-server:
     restart: unless-stopped
-    container_name: palworld-rathole-server
+    container_name: rathole-server
     image: rapiz1/rathole
     command: ["--server", "/app/server.toml"]
     ports:
@@ -12,7 +12,7 @@ services:
 
   rathole-client:
     restart: unless-stopped
-    container_name: palworld-rathole-client
+    container_name: rathole-client
     image: rapiz1/rathole
     command: ["--client", "/app/client.toml"]
     network_mode: host
