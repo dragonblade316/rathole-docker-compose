@@ -6,7 +6,8 @@ services:
     command: ["--server", "/app/server.toml"]
     ports:
       - 2333:2333  # for rathole communication
-      - 25566:25566 #minecraft 2
+      - 25565:25565 # minecraft 1
+      - 25566:25566 # minecraft 2
     volumes:
       - ./rathole-conf/server.toml:/app/server.toml
 
