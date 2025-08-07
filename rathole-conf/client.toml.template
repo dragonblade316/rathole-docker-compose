@@ -11,7 +11,14 @@ type = "tcp" # Optional. Possible values: ["tcp", "tls", "noise"]. Default: "tcp
 keepalive_secs = 5 # Optional. Specify `tcp_keepalive_time` in `tcp(7)`, if applicable. Default: 20 seconds
 keepalive_interval = 2 # Optional. Specify `tcp_keepalive_intvl` in `tcp(7)`, if applicable. Default: 8 seconds
 
-[client.services.minecraft2]
-local_addr = "127.0.0.1:25566"
+[client.services.minecraft1]
+local_addr = "192.168.12.141:25565"
 nodelay = true
 
+[client.services.minecraft2]
+local_addr = "192.168.12.141:25566"
+nodelay = true
+
+[client.services.minecraft3]
+local_addr = "192.168.12.141:25567"
+nodelay = true

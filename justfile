@@ -14,12 +14,12 @@ gen-rathole-configs:
 
 # starts the client in the background
 start-client:
-  docker compose up -d rathole-client
+  sudo docker compose up -d rathole-client
 
 # starts the server in the background
 start-server:
-  docker compose up -d rathole-server
+  sudo docker compose up -d rathole-server
 
 # follow logs
 logs:
-  docker compose logs -f
+  sudo docker compose logs -f
