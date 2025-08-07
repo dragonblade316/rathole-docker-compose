@@ -4,7 +4,7 @@ bind_addr = "0.0.0.0:2333" # `2333` specifies the port that rathole listens for 
 default_token = "$RATHOLE_TOKEN"
 
 [server.services.minecraft1]
-bind_addr = "0.0.0.0:25566"
+bind_addr = "0.0.0.0:25565"
 nodelay = true
 
 [server.services.minecraft2]
