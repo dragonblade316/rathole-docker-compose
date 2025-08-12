@@ -3,26 +3,26 @@
 bind_addr = "0.0.0.0:2333" # `2333` specifies the port that rathole listens for clients
 default_token = "$RATHOLE_TOKEN"
 
-[client.services.port1]
+[server.services.port1]
 bind_addr = "192.168.12.141:25565"
 nodelay = true
 
-[client.services.port2]
+[server.services.port2]
 bind_addr = "192.168.12.141:25566"
 nodelay = true
 
-[client.services.port3]
+[server.services.port3]
 bind_addr = "192.168.12.141:25567"
 nodelay = true
 
-[client.services.port4]
+[server.services.port4]
 bind_addr = "192.168.12.141:25568"
 nodelay = true
 
-[client.services.port5]
+[server.services.port5]
 bind_addr = "192.168.12.141:25569"
 nodelay = true
 
-[client.services.port6]
+[server.services.port6]
 bind_addr = "192.168.12.141:25570"
 nodelay = true
